@@ -7,7 +7,7 @@ class App < Sinatra::Base
   end
 
   post "/create_puppy" do
-    
+
   end
 
   get "/display_puppy" do
