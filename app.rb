@@ -11,7 +11,7 @@ class App < Sinatra::Base
   end
 
   post "/new" do
-    
+
   end
 
   get "/puppy" do
