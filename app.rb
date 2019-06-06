@@ -18,11 +18,4 @@ class App < Sinatra::Base
     erb :display_puppy
   end
 
-  get "/puppy" do
-    erb :display_puppy
-  end
-
-  post "/puppy" do
-    erb :display_puppy
-  end
 end
