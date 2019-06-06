@@ -11,10 +11,10 @@ class App < Sinatra::Base
   end
 
   post "/new" do
-
+    
   end
 
-  get "/display_puppy" do
+  get "/puppy" do
     erb :display_puppy
   end
 end
